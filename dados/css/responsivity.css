@@ -1,0 +1,64 @@
+@media(min-width: 650px){
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        margin-left: -1.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    nav {
+        gap: 32rem;
+    }
+    
+    nav img {
+        width: 3.5rem;
+    }
+
+    .conteudo {
+        margin-inline: 20rem;
+    }
+
+    .conteudo div {
+        background: rgba(0, 0, 0, 0);
+        text-align: justify;
+        margin-block: 3rem;
+    }
+
+    figure {
+        margin-block: 3.5rem;
+    }
+    
+    figure img {
+        width: 30rem;
+        border-radius: 8px;
+        text-align: center;
+        margin-left: 7rem;
+    }
+
+    figcaption {
+        font-size: 1rem;
+        margin-left: 7rem;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+    
+    footer img {
+        width: 5rem;
+    }
+
+    footer p {
+        font-size: 1.25rem;
+    }
+}

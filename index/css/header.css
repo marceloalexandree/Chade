@@ -1,0 +1,50 @@
+nav img {
+    width: 3.5rem;
+    margin-left: 5rem;
+}
+
+#banderola {
+    display: none;
+}
+
+nav img:hover {
+    cursor: pointer;
+}
+
+nav a {
+    font-family: 'Josefin Sans';
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
+    margin-right: 5rem;
+    border-radius: 7px;
+}
+
+nav a:hover {
+    background: rgba(250, 250, 250, 0.8);
+    color: var(--preto);
+    transition: all 0.3s ease-in;
+}
+
+.capinha {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.capinha img {
+    width: 100%;
+}   
+
+.capinha h1 {
+    position: absolute;
+    top: 9.25rem;
+    left: 5rem;
+    font-size: 5rem;
+    color: var(--branco);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 7px;
+}

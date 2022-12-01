@@ -1,0 +1,83 @@
+.apresentacao p, main h2{
+    color: var(--branco);
+}
+
+.apresentacao p, .destaques p {
+    font-family: 'PT Serif';
+    text-align: justify;
+    line-height: 1.75rem;
+    letter-spacing: .09rem;
+}
+
+.apresentacao section {
+    margin-top: 1rem;
+}
+
+.apresentacao img {
+    width: 30rem;
+    border-radius: 9px;
+    border: solid 3px transparent;
+}
+
+.apresentacao img:hover {
+    border: solid 3px rgba(235, 235, 235, 0.5);
+    cursor: none;
+}
+
+.apresentacao {
+    display: flex;
+    gap: 6rem;
+    margin-inline: 5rem;
+    padding-bottom: 4rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 3rem;
+}
+
+.cards img {
+    width: 4rem;
+    height: 4.25rem;
+    margin-block: 3rem;
+}
+
+#musica img {
+    width: 4.5rem;
+    height: 4rem;
+}
+
+.cards p {
+    margin-block: 2rem;
+    margin-inline: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.cards a {
+    border: solid 2px var(--branco);
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.ovo {
+    width: 24rem;
+    height: 24.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.ovo:hover h3, .ovo:hover img, .ovo:hover p, .ovo:hover a{
+    filter: invert(1);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.ovo:hover {
+    background: rgba(235, 235, 235, 0.9);
+    transition: all 0.5s ease-in;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}

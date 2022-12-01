@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background: var(--preto);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+
+main{
+    background: linear-gradient(to bottom right, var(--preto), var(--cinza));
+    margin-top: -1rem;
+}
+
+footer {
+    background: var(--preto);
+    padding: 2rem;
+    text-align: center;
+}
+
+.cultura{
+    background: var(--azul);
+    padding-bottom: 5rem;
+}
+
+.regioes {
+    background: var(--amarelo);
+    padding-bottom: 5rem;
+}
+
+.historia {
+    background: var(--vermelho);
+    padding-bottom: 5rem;
+}
+
+h1 {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    color: var(--branco);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 1.25rem;
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h3 {
+    font-family: 'Josefin Sans';
+    font-size: 2.25rem;
+    color: var(--branco);
+}
+
+a {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: 'Josefin Sans';
+    scroll-behavior: smooth;
+}
+
+p {
+    color: var(--branco);
+    font-family: 'PT Serif';
+}
+

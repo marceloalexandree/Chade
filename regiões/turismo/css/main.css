@@ -1,0 +1,29 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1.5rem;
+    justify-content: center;
+}
+
+.conteudo div {
+    background: rgba(0,0,0,0.1);
+    color: var(--branco);
+    text-align: left;
+    font-family: 'PT Serif';
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-inline: .8rem;
+    padding-block: 1.5rem;
+    border-radius: 5px;
+}
+
+figure {
+    margin-block: 2.5rem;
+}
+
+figure img {
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 1.75rem;
+}
